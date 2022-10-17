@@ -6,7 +6,7 @@
     "debug": false,
 
     "_comment": "Selects the method to adjust stamina. ['unlimited'/'percent'/'fixed']",
-    "adjustment_method": "percent",
+    "adjustment_method": "unlimit",
 
     "_comment": "The percentage the stamina values will be adjusted by. [integer]",
     "_comment": "A positive value will increase stamina capacities and regeneration rates, but lower the drain rates.",
@@ -22,9 +22,9 @@
         "y": 0.75,
         "z": 1
     },
-    "AimDrainRate": 1.1,
-    "AimRangeFinderDrainRate": 0.55,
-    "BaseHoldBreathConsumption": 4,
+    "AimDrainRate": 0.0,
+    "AimRangeFinderDrainRate": 0.00,
+    "BaseHoldBreathConsumption": 0,
     "BaseRestorationRate": 4.4,
     "Capacity": 100,
     "CrouchConsumption": {
@@ -39,7 +39,7 @@
     },
     "HandsCapacity": 70,
     "HandsRestoration": 2.1,
-    "JumpConsumption": 16,
+    "JumpConsumption": 0,
     "OxygenCapacity": 300,
     "OxygenRestoration": 4,
     "PoseLevelConsumptionPerNotch":  {
